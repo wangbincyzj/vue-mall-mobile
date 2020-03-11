@@ -1,0 +1,525 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200311.145006.12228.0.001.json",
+    "dumpEventTime": "2020-03-11T14:50:06Z",
+    "dumpEventTimeStamp": "1583909406821",
+    "processId": 12228,
+    "cwd": "G:\\laernHTML\\vue-mall-mobile",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "G:\\laernHTML\\vue-mall-mobile\\test.js"
+    ],
+    "nodejsVersion": "v12.16.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.0",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.0/node-v12.16.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.0/node-v12.16.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Education",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 22132953,
+        "nice": 0,
+        "sys": 9960843,
+        "idle": 219968078,
+        "irq": 1494390
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 7837921,
+        "nice": 0,
+        "sys": 1871203,
+        "idle": 242352750,
+        "irq": 36953
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 36743906,
+        "nice": 0,
+        "sys": 7618390,
+        "idle": 207699250,
+        "irq": 76828
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 9467218,
+        "nice": 0,
+        "sys": 2207390,
+        "idle": 240386937,
+        "irq": 39296
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 22502156,
+        "nice": 0,
+        "sys": 4601218,
+        "idle": 224958171,
+        "irq": 65375
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 10348546,
+        "nice": 0,
+        "sys": 3135437,
+        "idle": 238577562,
+        "irq": 51593
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 22591140,
+        "nice": 0,
+        "sys": 4848906,
+        "idle": 224621500,
+        "irq": 62281
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 8439671,
+        "nice": 0,
+        "sys": 3025984,
+        "idle": 240595890,
+        "irq": 38359
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 20193218,
+        "nice": 0,
+        "sys": 4055968,
+        "idle": 227812359,
+        "irq": 54250
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 13413062,
+        "nice": 0,
+        "sys": 1863328,
+        "idle": 236785156,
+        "irq": 33312
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 20067000,
+        "nice": 0,
+        "sys": 3662671,
+        "idle": 228331875,
+        "irq": 56906
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 11627906,
+        "nice": 0,
+        "sys": 2815265,
+        "idle": 237618375,
+        "irq": 24875
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 16538765,
+        "nice": 0,
+        "sys": 3071906,
+        "idle": 232450875,
+        "irq": 111812
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 16325500,
+        "nice": 0,
+        "sys": 2601265,
+        "idle": 233134781,
+        "irq": 42859
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 30911734,
+        "nice": 0,
+        "sys": 4711750,
+        "idle": 216438062,
+        "irq": 54796
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3700,
+        "user": 14901406,
+        "nice": 0,
+        "sys": 5495546,
+        "idle": 231664593,
+        "irq": 116359
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::6d8f:e3d8:1088:1ae9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.101.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::809b:66b2:8aec:5305",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.162.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "00:d8:61:19:d5:34",
+        "address": "fe80::28f5:c66:4940:85ef",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "以太网",
+        "internal": false,
+        "mac": "00:d8:61:19:d5:34",
+        "address": "192.168.0.100",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-0S2FESC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff73b3d19f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff73b3d5e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff73b3d4dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff73b4d364b",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff73bcea11e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff73bcd21f1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff73bb9e74c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff73bbbb64b",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+59"
+    },
+    {
+      "pc": "0x00007ff73bbbb601",
+      "symbol": "v8::internal::Factory::NewUninitializedFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff73ba9874f",
+      "symbol": "v8::debug::Script::GetIsolate+8527"
+    },
+    {
+      "pc": "0x00007ff73b94841a",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+162938"
+    },
+    {
+      "pc": "0x00007ff73c134fad",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x0000034aabac494e",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1841045504,
+    "totalCommittedMemory": 1841045504,
+    "usedMemory": 1816406760,
+    "availableMemory": 380718528,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759296,
+        "used": 9822808,
+        "available": 6936488
+      },
+      "old_space": {
+        "memorySize": 1458176,
+        "committedMemory": 1458176,
+        "capacity": 1452256,
+        "used": 1199304,
+        "available": 252952
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 156416,
+        "used": 156416,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 170880,
+        "used": 170880,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1805025280,
+        "committedMemory": 1805025280,
+        "capacity": 1805021760,
+        "used": 1805021760,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 5.125,
+    "kernelCpuSeconds": 1.89,
+    "cpuConsumptionPercent": 116.917,
+    "maxRss": 2448318464,
+    "pageFaults": {
+      "IORequired": 1347312,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 3,
+      "writes": 90
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMDRMPATH": "C:\\Program Files\\AMD\\RyzenMaster\\",
+    "ANDROID_HOME": "D:\\AndroidSDK",
+    "ANDROID_SDK_ROOT": "D:\\AndroidSDK",
+    "APPDATA": "C:\\Users\\Administrator\\AppData\\Roaming",
+    "chromedriver": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe",
+    "COLORTERM": "true",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-0S2FESC",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DEBUG_COLORS": "true",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FORCE_COLOR": "true",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GRADLE_HOME": "D:\\gradle-6.1-milestone-3-all\\gradle-6.1-milestone-3",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Administrator",
+    "IDEA_INITIAL_DIRECTORY": "D:\\Program Files\\JetBrains\\WebStorm 2019.2.4\\bin",
+    "IntelliJ IDEA": "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.2.3\\bin;",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_231",
+    "LOCALAPPDATA": "C:\\Users\\Administrator\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-0S2FESC",
+    "MAVEN_HOME": "D:\\apache-maven-3.6.2",
+    "MOCHA_COLORS": "1",
+    "npm_config_color": "always",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OneDrive": "C:\\Users\\Administrator\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\PuTTY\\;C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application;C:\\Program Files\\Redis\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Java\\jdk1.8.0_231\\bin;D:\\apache-maven-3.6.2\\bin;C:\\Program Files (x86)\\Google\\Chrome\\Application;D:\\AndroidSDK\\platform-tools;D:\\AndroidSDK\\tools;D:\\gradle-6.1-milestone-3-all\\gradle-6.1-milestone-3\\bin;C:\\Program Files\\nodejs\\;D:\\Ruby26-x64\\bin;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;d:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;D:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.1.2\\bin;C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application;C:\\Program Files\\JetBrains\\WebStorm 2019.2\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.2.3\\bin;D:\\Program Files\\JetBrains\\IntelliJ IDEA 2019.2.3\\bin;;d:\\Program Files\\JetBrains\\PyCharm 2019.1.3\\bin;;C:\\Program Files (x86)\\Google\\Chrome\\Application;C:\\Users\\Administrator\\AppData\\Roaming\\npm;F:\\Users\\Administrator\\AppData\\Local\\Programs\\Fiddler",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "0802",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm": "d:\\Program Files\\JetBrains\\PyCharm 2019.1.3\\bin;",
+    "RUBYOPT": "-Eutf-8",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\Administrator\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Administrator\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-0S2FESC",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-0S2FESC",
+    "USERNAME": "Administrator",
+    "USERPROFILE": "C:\\Users\\Administrator",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "WebStorm": "C:\\Program Files\\JetBrains\\WebStorm 2019.2\\bin;",
+    "windir": "C:\\Windows"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\Netease\\UU\\uu_lsp64.dll",
+    "C:\\Windows\\System32\\SHLWAPI.dll",
+    "C:\\Windows\\System32\\SHELL32.dll",
+    "C:\\Windows\\System32\\shcore.dll",
+    "C:\\Windows\\System32\\windows.storage.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\cryptsp.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\WINTRUST.DLL",
+    "C:\\Windows\\System32\\imagehlp.dll",
+    "C:\\Windows\\system32\\rsaenh.dll",
+    "C:\\Windows\\system32\\wshqos.dll",
+    "C:\\Windows\\SYSTEM32\\wshtcpip.DLL",
+    "C:\\Windows\\SYSTEM32\\wship6.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
